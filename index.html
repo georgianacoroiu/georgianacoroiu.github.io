@@ -1,1 +1,145 @@
-
+<!DOCTYPE html>
+<!--
+	Robotic Modelling and Drone Skin Design - Example Website
+	By Luke Emery | staffs.ac.uk
+	Copyright (c) 2022 Luke Emery - All Rights Reserved
+-->
+<html lang="en">
+	<head>
+		<title>RMaDSD - Example</title>
+		<!-- Meta Data -->
+		<meta charset="utf-8" />	
+		<meta name="theme-color" content="#2485CA" />
+		<!-- Scripts -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.scrollex.min.js"></script>
+		<script type="text/javascript" src="scripts/presentation-logic.js"></script>
+		<script type="text/javascript" src="https://kit.fontawesome.com/911248dc7f.js" crossorigin="anonymous"></script>
+		<!-- Links -->
+		<link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="style/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap">
+	</head>
+	<body>
+		<!-- Content -->
+		<div id="content-wrapper">
+			<!-- Sections -->
+			<section id="landing" class="section-viewport">
+				<div id="landing-wrapper" class="section-wrapper">
+					<div id="landing-grid-bg"></div>
+					<div id="landing-decoration-wrapper">
+						<img id="landing-wordmark-logo" src="assets/images/Wordmark.png" alt="Robotic Modelling and Drone Skin Design">
+					</div>
+				</div>
+			</section>		
+			<section id="about-me" class="section-viewport">
+				<div id="about-wrapper" class="section-wrapper">
+					<div class="card">
+						<div class="card-content-wrapper">
+							<h1>Hello World</h1>
+							<div id="about-text-wrapper">
+								<p>I am Luke Emery, and I am the module leader for Robotic Modelling and Drone Skin Design (COMP60019).<br><br>
+									Within the university, I am a part-time lecturer (currently scheduled to be on campus on Tuesday) and have experience in modules concerning C++ for Game Engine Creation and Fundamentals of Game and Graphical Systems.<br><br>
+									Outside of the university, I am the director of Bright Idea, a business leveraging technology solutions for use in themed entertainment and visitor attractions; 
+									this includes the use of additive manufacturing, primarily Fused Filament Fabrication 3D Printing, and software development with particular interests in cross platform frameworks and C++. 
+									Throughout a decade of both operational and technological experience in themed entertainment, I have been fortunate to work on major themed attractions, 
+									including one of the largest virtual reality dark ride installations in the world, and have a passion for the integration of computing in a way which is coherrent with the world design of themed attractions.
+								</p>
+							</div>													
+							<div id="about-image-wrapper">
+								<img id="about-image" src="assets/images/Luke.png" alt="Headshot of Luke Emery">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="demonstration" class="section-viewport">
+				<div id="demo-wrapper" class="section-wrapper">
+					<div id="viewer-card" class="card">
+						<div class="card-content-wrapper">
+							<h1>Prototype Hinge Demo</h1>
+							<p>
+								File created by Luke Emery.
+							</p>
+							<div id="demo-viewer-wrapper">
+								<script id="embedded-stl-view" src="https://embed.github.com/view/3d/Luke-Emery/luke-emery.github.io/main/assets/stl/Hinge.stl?title=Embedded%20STL%20Viewer"></script>
+							</div>
+							<p>
+								The above design, shown in the embedded <a href="https://github.com/" title="GitHub">GitHub</a> STL viewer, is a prototype hinge design intended for production using the Fused Filament Fabrication (FFF) method of 3D printing.<br>
+								Provided as an example file, this demo shows how the embedded viewer can be combined with other content such as a narrative or description to explain about the artefacts produced in Robotic Modelling and Drone Skin Design.<br><br>						
+								<b>Interact with the model using the mouse and mouse wheel. Drag, zoom or change view mode. Once interaction is finished, after a short while, the viewer will animate the camera around the model.</b>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact" class="section-viewport">
+				<div id="contact-wrapper" class="section-wrapper">
+					<div class="card">
+						<div class="card-content-wrapper">
+							<h1>Get in Touch!</h1>
+							<p>When at <a href="https://www.staffs.ac.uk/" title="Staffordshire University">Staffordshire University</a> I can be found in the Mellor Building, on College Road, in lab S005.</p>
+							<div id="contact-details-wrapper">
+								<p><a class="contact-icon" href="mailto:luke.emery@staffs.ac.uk" title="Email Address"><i class="fa-solid fa-envelope"></i></a></p>
+								<p><a class="contact-icon" href="https://www.linkedin.com/in/lukedanielemery/" title="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a></p>
+								<p><a class="contact-icon" href="https://twitter.com/LukeDanielEmery" title="Twitter Profile"><i class="fa-brands fa-twitter"></i></a></p>
+							</div>
+							<iframe id="contact-embedded-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1378.7597855085378!2d-2.181340673169493!3d53.01029302349089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a6834077d3911%3A0x40c089f5ce37e895!2sMellor%20Building%2C%20Staffordshire%20University!5e0!3m2!1sen!2suk!4v1665284074441!5m2!1sen!2suk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>					
+				</div>
+			</section>
+			<footer>
+				<div class="footer-content-wrapper">
+					<img id="footer-icon-logo" src="assets/images/Favicon@4x.png" alt="Icon of robot head">
+					<p id="footer-copyright-notice">Copyright © 2022 Luke Emery | Staffordshire University – All Rights Reserved</p>
+				</div>
+			</footer>
+		</div>
+		<!-- UI Elements -->		
+		<a id="to-top-btn" class="floating-action-button ui-nav-element" href="#top" title="Return to Top">
+			<i class="fa-solid fa-arrow-up ui-icon"></i>
+		</a>
+		<div id="nav-decoration-wrapper" class="nav-wrapper ui-nav-element">
+			<div id="yellow-bar" class="nav-decoration-bg"></div>
+			<div id="orange-bar" class="nav-decoration-bg"></div>
+			<div id="red-bar" class="nav-decoration-bg"></div>
+			<div id="blue-bar" class="nav-decoration-bg"></div>			
+		</div>
+		<div id="nav-navigation-wrapper" class="nav-wrapper ui-nav-element">
+			<div id="nav-logo-wrapper" class="nav-inner-wrapper">
+				<img id="nav-logomark-logo" src="assets/images/Logomark.png" alt="Icon/logomark depicting robotic character mascot">
+			</div>
+			<div id="nav-links-wrapper" class="nav-inner-wrapper">			
+				<nav class="nav-links-inner-wrapper">
+					<div id="nav-links-top-inner-wrapper" class="nav-links-positional-wrapper">
+						<div>
+							<a id="home-btn" class="floating-action-button nav-link-button" href="#landing" title="Home">
+								<i class="fa-solid fa-house ui-icon"></i>
+							</a>
+						</div>
+						<div>
+							<a id="about-btn" class="floating-action-button nav-link-button" href="#about-me" title="About Me">
+								<i class="fa-solid fa-circle-info ui-icon"></i>
+							</a>					
+						</div>
+					</div>
+					<div id="nav-links-top-inner-wrapper" class="nav-links-positional-wrapper">
+						<div>
+							<a id="demo-btn" class="floating-action-button nav-link-button" href="#demonstration" title="Demonstration">
+								<i class="fa-solid fa-rocket ui-icon"></i>
+							</a>					
+						</div>
+						<div>
+							<a id="contact-btn" class="floating-action-button nav-link-button" href="#contact" title="Contact Me">
+								<i class="fa-solid fa-at ui-icon"></i>
+							</a>						
+						</div>
+					</div>						
+				</nav>			
+			</div>			
+		</div>
+	</body>
+</html>
